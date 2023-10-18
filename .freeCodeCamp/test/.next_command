@@ -25,3 +25,6 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 sudo service postgresql start
 psql --username=freecodecamp --dbname=postgres
 ./insert_data.sh
+__vsc_prompt_cmd_original
+\l
+ls --color=auto
